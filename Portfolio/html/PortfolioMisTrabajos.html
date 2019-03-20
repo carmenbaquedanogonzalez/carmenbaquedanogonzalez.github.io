@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Carmen Baquedano - Portfolio</title>
+        <link rel="stylesheet" href="../css/MisTrabajos.css">
+        <link rel="stylesheet" href="../css/general.css">
+
+        <meta charset="utf-8">
+        <link rel="icon" href="../img/logo3.png">
+
+    </head>
+    <body >
+        <div id="container">
+            <header id="cabecera" ><b>Carmen Baquedano</b>
+                <p id="anotacion">Estudiante de ciclo de animación 3D, juegos y entornos interactivos</p>
+
+            </header>
+            <nav>
+                <ul class="navegador">
+                    <li> <a class= "enlace" href="../index.html"><b>INICIO</b></a> </li>
+                    <li> <a class= "enlace" href="PortfolioMisTrabajos.html"><b>MIS TRABAJOS</b></a>  </li>
+                    <li> <a class= "enlace" href="PortfolioDemo.html"><b>DEMO</b></a> </li>
+				    <li> <a class= "enlace" href="PortfolioContacto.html"><b>CONTACTO</b></a>
+
+                </ul>
+            </nav>
+        </div>
+
+
+            <main>
+                <div id="central">
+                    <h1>Mis Trabajos</h1>
+                </div>
+
+                <section>
+
+
+
+                 
+                        <article class="articuloGaleria">
+                            <div class="derecha">
+                                <ul id="galeria">
+                                    <li id="li1" onclick="on()" >
+                                      <div class="contenedorImg">
+                                        
+                                        <div class="aclaracion" >           <p>Modelo:<br>Concept:</p></div>
+                                      </div>
+                                    </li>
+                                    <li id="li2" onclick="on2()" >
+                                       <div class="contenedorImg">
+                                        
+                                        <div   class="aclaracion" >         <p>Modelo:<br>Concept:</p></div>
+                                       </div>
+                                    </li>
+                                    <li  onclick="on3()" id="li3">
+                                       <div class="contenedorImg">
+                                       
+                                        <div  class="aclaracion" >          <p>Modelo:<br>Concept:</p></div>
+                                       </div>
+                                    </li>
+                                    <li id="li4" onclick="on4()">
+                                      <div class="contenedorImg">
+                                        
+                                        <div class="aclaracion" >           <p>Modelo: Torso de Hércules<br>Hight Poly</p></div>
+                                      </div>
+                                    </li>
+                                    <li id="li5" onclick="on5()">
+                                      <div class="contenedorImg">
+                                        
+                                        <div class="aclaracion" >           <p>Modelo:<br>Concept:</p></div>
+                                      </div>
+                                    </li>
+                                    <li id="li6" onclick="on6()">
+                                      <div class="contenedorImg">
+                                        
+                                        <div class="aclaracion" ><p>Modelo: bmw 635<br>Hight Poly</p></div>
+                                        </div></li>
+
+
+                                </ul>
+                            </div>
+                         </article>
+
+            <!--galeria JavaS-->
+
+               <article class="sliderG"  id="overlay" >
+                    <div class="cierre" onclick="off()"> Cerrar</div>
+                        <div class="container2">
+
+
+                          <div class="mySlides">
+                            <div class="numbertext">1 / 6</div>
+                              <img  alt="lago" src="../img/lago.jpg" class="imagenG">
+                          </div>
+
+                          <div class="mySlides">
+                            <div class="numbertext">2 / 6</div>
+                              <img  alt="lago" src="../img/lago6.jpg" class="imagenG">
+                          </div>
+
+                          <div class="mySlides">
+                            <div class="numbertext">3 / 6</div>
+                              <img alt="lago" src="../img/Lago2.jpg" class="imagenG">
+                          </div>
+
+                          <div class="mySlides">
+                            <div class="numbertext">4 / 6</div>
+                              <img alt="lago" src="../img/lago3.jpg" class="imagenG">
+                          </div>
+
+                          <div class="mySlides">
+                            <div class="numbertext">5 / 6</div>
+                              <img alt="lago" src="../img/lago4.jpg" class="imagenG">
+                          </div>
+
+                          <div class="mySlides">
+                            <div class="numbertext">6 / 6</div>
+                              <img alt="lago" class="imagenG" src="../img/lago5.jpg" >
+                          </div>
+
+
+                          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                          <div class="caption-container">
+                            <p id="caption"></p>
+                          </div>
+
+
+                          <div class="row">
+                               <div class="column">
+                              <img class="demo cursor" src="../img/lago.jpg" onclick="currentSlide(1)" alt="Perp">
+                            </div>
+                            <div class="column">
+                              <img class="demo cursor" src="../img/lago6.jpg" onclick="currentSlide(2)" alt="Front">
+                            </div>
+                            <div class="column">
+                              <img class="demo cursor" src="../img/Lago2.jpg" onclick="currentSlide(3)" alt="Side">
+                            </div>
+                            <div class="column">
+                              <img class="demo cursor" src="../img/lago3.jpg" onclick="currentSlide(4)" alt="Back">
+                            </div>
+                            <div class="column">
+                              <img class="demo cursor" src="../img/lago4.jpg"  onclick="currentSlide(5)" alt="Wire">
+                            </div>
+                              <div class="column">
+                              <img class="demo cursor" src="../img/lago5.jpg"  onclick="currentSlide(6)" alt="Shaded">
+                            </div>
+                          </div>
+
+                        </div>
+                        </article>
+
+                <!--galería2-->
+                        <article class="sliderG"  id="overlay2">
+                            <div class="cierre" onclick="cierre2()"> Cerrar</div>
+                <div class="container2" >
+
+
+                  <div class="mySlides2">
+                    <div class="numbertext2">1 / 6</div>
+                      <img  alt="and" src="../img/and.jpg" class="imagenG">
+                  </div>
+
+                  <div class="mySlides2">
+                    <div class="numbertext2">2 / 6</div>
+                      <img alt="and" src="../img/and2.jpg" class="imagenG">
+                  </div>
+
+                  <div class="mySlides2">
+                    <div class="numbertext2">3 / 6</div>
+                      <img alt="and" src="../img/and4.jpg" class="imagenG">
+                  </div>
+
+                  <div class="mySlides2">
+                    <div class="numbertext2">4 / 6</div>
+                      <img alt="and" src="../img/and4.jpg" class="imagenG">
+                  </div>
+
+                  <div class="mySlides2">
+                    <div class="numbertext2">5 / 6</div>
+                      <img alt="and" src="../img/and5.jpg" class="imagenG">
+                  </div>
+
+                  <div class="mySlides2">
+                    <div class="numbertext2">6 / 6</div>
+                      <img alt="and" class="imagenG" src="../img/and6.jpg" >
+                  </div>
+
+
+                  <a class="prev2" onclick="plusSlides2(-1)">&#10094;</a>
+                  <a class="next2" onclick="plusSlides2(1)">&#10095;</a>
+
+                  <div class="caption-container2">
+                    <p id="caption2"></p>
+                  </div>
+
+
+                  <div class="row2">
+                       <div class="column2">
+                      <img class="demo2 cursor2" src="../img/and.jpg" onclick="currentSlide2(1)" alt="Persp">
+                    </div>
+                    <div class="column2">
+                      <img class="demo2 cursor2" src="../img/and2.jpg" onclick="currentSlide2(2)" alt="Front">
+                    </div>
+                    <div class="column2">
+                      <img class="demo2 cursor2" src="../img/and4.jpg" onclick="currentSlide2(3)" alt="Side">
+                    </div>
+                    <div class="column2">
+                      <img class="demo2 cursor2" src="../img/and4.jpg" onclick="currentSlide2(4)" alt="Back">
+                    </div>
+                    <div class="column2">
+                      <img class="demo2 cursor2" src="../img/and5.jpg"  onclick="currentSlide2(5)" alt="Wire">
+                    </div>
+                      <div class="column2">
+                      <img class="demo2 cursor2" src="../img/and6.jpg"  onclick="currentSlide2(6)" alt="Shader">
+                    </div>
+                  </div>
+
+                </div>
+                </article>
+
+                    <!--galeria3-->
+
+                
+
+                <article class="sliderG"  id="overlay3">
+                            <div class="cierre" onclick="cierre3()"> Cerrar</div>
+                <div class="container2" >
+
+
+                  <div class="mySlides3">
+                    <div class="numbertext3">1 / 6</div>
+                      <img alt="ciudad" src="../img/ciudad.jpg" class="imagenG">
+                  </div>
+
+                  <div class="mySlides3">
+                    <div class="numbertext3">2 / 6</div>
+                      <img  alt="ciudad" src="../img/ciudad2.jpg" class="imagenG">
+                  </div>
+
+                  <div class="mySlides3">
+                    <div class="numbertext3">3 / 6</div>
+                      <img alt="ciudad" src="../img/ciudad3.jpg" class="imagenG">
+                  </div>
+
+                  <div class="mySlides3">
+                    <div class="numbertext3">4 / 6</div>
+                      <img alt="ciudad" src="../img/ciudad5.jpg" class="imagenG">
+                  </div>
+
+                  <div class="mySlides3">
+                    <div class="numbertext3">5 / 6</div>
+                      <img alt="ciudad" src="../img/ciudad5.jpg" class="imagenG">
+                  </div>
+
+                  <div class="mySlides3">
+                    <div class="numbertext3">6 / 6</div>
+                      <img alt="ciudad" class="imagenG" src="../img/ciudad6.jpg" >
+                  </div>
+
+
+                  <a class="prev3" onclick="plusSlides3(-1)">&#10094;</a>
+                  <a class="next3" onclick="plusSlides3(1)">&#10095;</a>
+
+                  <div class="caption-container3">
+                    <p id="caption3"></p>
+                  </div>
+
+
+                  <div class="row3">
+                       <div class="column3">
+                      <img class="demo3 cursor3" src="../img/ciudad.jpg" onclick="currentSlide3(1)" alt="Persp">
+                    </div>
+                    <div class="column3">
+                      <img class="demo3 cursor3" src="../img/ciudad2.jpg" onclick="currentSlide3(2)" alt="Front">
+                    </div>
+                    <div class="column3">
+                      <img class="demo3 cursor3" src="../img/ciudad3.jpg" onclick="currentSlide2(3)" alt="Side">
+                    </div>
+                    <div class="column3">
+                      <img class="demo3 cursor3" src="../img/ciudad4.jpg" onclick="currentSlide3(4)" alt="Back">
+                    </div>
+                    <div class="column3">
+                      <img class="demo3 cursor3" src="../img/ciudad5.jpg"  onclick="currentSlide3(5)" alt="Wire">
+                    </div>
+                      <div class="column3">
+                      <img class="demo3 cursor3" src="../img/ciudad6.jpg"  onclick="currentSlide3(6)" alt="Shaded">
+                    </div>
+                  </div>
+
+                </div>
+                </article>
+
+
+
+
+
+
+
+                <!--video-->
+                  <article class="sliderG"  id="overlay4">
+                            <div class="cierre" onclick="cierre4()"> Cerrar</div>
+               <div id="container2">
+
+   <video  controls muted preload="auto" autoplay loop src="../img/torsoVitrina.0001.mp4"</video>
+
+                </div>           
+
+                </article>
+
+
+
+              <!--imgAum-->
+                        <article class="sliderG"  id="overlay5">
+                            <div class="cierre" onclick="cierre5()"> Cerrar</div>
+               <div id="container2">
+
+   <video  controls muted preload="auto" autoplay loop src="../img/torsoVitrina.0001.mp4"</video>
+
+                </div>           
+
+                </article>
+
+
+         <!--video3-->
+                        <article class="sliderG"  id="overlay6">
+                            <div class="cierre" onclick="cierre6()"> Cerrar</div>
+               <div class="container3"> 
+
+<div class="sketchfab-embed-wrapper"><iframe  src="https://sketchfab.com/models/531f0efbac7f440184d7aa4b29e6a18a/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+</div>
+
+                </div>           
+
+                </article>
+<!--Scripts-->
+                    
+ <script>
+                      function on() {
+                        document.getElementById("overlay3").style.display = "none";
+                        document.getElementById("overlay2").style.display = "none";
+                          document.getElementById("overlay4").style.display = "none";
+                          document.getElementById("overlay5").style.display = "none";
+                         document.getElementById("overlay6").style.display = "none";document.getElementById("overlay").style.display = "block";
+
+                      }
+
+                      function cierre() {
+                        document.getElementById("overlay").style.display = "none";
+                      }
+                  </script>
+                  <script>
+                      function on2() {
+                          document.getElementById("overlay4").style.display = "none";
+                        document.getElementById("overlay3").style.display = "none";
+                         document.getElementById("overlay").style.display = "none";
+                       document.getElementById("overlay6").style.display = "none"; document.getElementById("overlay2").style.display = "block";
+                      }
+
+                      function cierre2() {
+                        document.getElementById("overlay2").style.display = "none";
+
+                      }
+                  </script>
+
+                  <script>
+                      function on3() {
+                         document.getElementById("overlay6").style.display = "none"; document.getElementById("overlay4").style.display = "none";
+                         document.getElementById("overlay").style.display = "none";
+                        document.getElementById("overlay2").style.display = "none";
+                          
+document.getElementById("overlay5").style.display = "none";
+                        document.getElementById("overlay3").style.display = "block";
+                    
+                      }
+
+                      function cierre3() {
+                        document.getElementById("overlay3").style.display = "none";
+
+                      }
+                  </script>                    
+                    
+        <script>
+                      function on4() {
+                         document.getElementById("overlay").style.display = "none";
+                        document.getElementById("overlay2").style.display = "none";
+                          document.getElementById("overlay3").style.display = "none";
+                          document.getElementById("overlay5").style.display = "none";
+                       document.getElementById("overlay6").style.display = "none"; document.getElementById("overlay4").style.display = "block";
+                      }
+
+                      function cierre4() {
+                        document.getElementById("overlay4").style.display = "none";
+
+                      }
+                  </script>                     
+                    
+        <script>
+                      function on5() {
+                         document.getElementById("overlay").style.display = "none";
+                        document.getElementById("overlay2").style.display = "none";
+                          document.getElementById("overlay3").style.display = "none";
+                          document.getElementById("overlay4").style.display = "none";
+                       document.getElementById("overlay6").style.display = "none"; document.getElementById("overlay5").style.display = "block";
+                      }
+
+                      function cierre5() {
+                        document.getElementById("overlay5").style.display = "none";
+
+                      }
+                  </script>     
+                    
+                    
+                    
+                <script>
+                      function on6() {
+                         document.getElementById("overlay").style.display = "none";
+                        document.getElementById("overlay2").style.display = "none";
+                          document.getElementById("overlay3").style.display = "none";
+                          document.getElementById("overlay4").style.display = "none";
+                       document.getElementById("overlay5").style.display = "none"; document.getElementById("overlay6").style.display = "block";
+                      }
+
+                      function cierre6() {
+                        document.getElementById("overlay6").style.display = "none";
+
+                      }
+                  </script> 
+                    
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+<script>
+    var slideIndex2 = 1;
+showSlides2(slideIndex2);
+
+// Next/previous controls
+function plusSlides2(n) {
+  showSlides2(slideIndex2 += n);
+}
+
+// Thumbnail image controls
+function currentSlide2(n) {
+  showSlides2(slideIndex2 = n);
+}
+
+function showSlides2(n) {
+  var i;
+  var slides2 = document.getElementsByClassName("mySlides2");
+  var dots2 = document.getElementsByClassName("demo2");
+  var captionText2 = document.getElementById("caption2");
+  if (n > slides2.length) {slideIndex2 = 1}
+  if (n < 1) {slideIndex2 = slides2.length}
+  for (i = 0; i < slides2.length; i++) {
+    slides2[i].style.display = "none";
+  }
+  for (i = 0; i < dots2.length; i++) {
+    dots2[i].className = dots2[i].className.replace(" active2", "");
+  }
+  slides2[slideIndex2-1].style.display = "block";
+  dots2[slideIndex2-1].className += " active2";
+  captionText2.innerHTML = dots2[slideIndex2-1].alt;
+}
+</script>
+
+<script>
+    var slideIndex3 = 1;
+showSlides3(slideIndex3);
+
+// Next/previous controls
+function plusSlides3(n) {
+  showSlides3(slideIndex3 += n);
+}
+
+// Thumbnail image controls
+function currentSlide3(n) {
+  showSlides3(slideIndex3 = n);
+}
+
+function showSlides3(n) {
+  var i;
+  var slides3 = document.getElementsByClassName("mySlides3");
+  var dots3 = document.getElementsByClassName("demo3");
+  var captionText3 = document.getElementById("caption3");
+  if (n > slides3.length) {slideIndex3 = 1}
+  if (n < 1) {slideIndex3 = slides3.length}
+  for (i = 0; i < slides3.length; i++) {
+    slides3[i].style.display = "none";
+  }
+  for (i = 0; i < dots3.length; i++) {
+    dots3[i].className = dots3[i].className.replace(" active3", "");
+  }
+  slides3[slideIndex3-1].style.display = "block";
+  dots3[slideIndex3-1].className += " active3";
+  captionText3.innerHTML = dots3[slideIndex3-1].alt;
+}
+</script>
+</section>
+
+
+        </main>
+        <footer id="footer">
+              <a class="red_enlace" title="Linkedin" href="https://es.linkedin.com/">
+                  <img class="Redes" src="../img/linkedIn.png" alt="Enlace_Linkedin"></a>
+
+
+
+      </footer>
+
+  </body>
+
+
+</html>

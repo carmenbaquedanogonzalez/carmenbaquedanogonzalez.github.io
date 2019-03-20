@@ -1,0 +1,88 @@
+
+main{ 
+	display:flex;
+	justify-content:space-around;
+    align-content: center;
+	flex-direction: column;
+    min-height: 80%;
+}
+section{
+	display:flex;
+	align-items: center;
+	justify-content:flex-start;
+	flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+	
+#central{
+    margin-top: 40px;
+}
+
+.formulario{ 
+   display: flex;
+    flex-direction: column;
+  
+    max-width: 60%;
+    min-height: 25%;
+    border: 3px solid black;
+    margin:auto;
+    font-family: "ovo";
+    margin-bottom: 10px;
+}
+
+textarea{ 
+    max-width: 98%;
+    font-family: "ovo";
+    min-height: 10%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    margin-top: 0;
+  
+}
+
+#datos{ 
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+@font-face {
+    font-family: ovo;
+    src: url(../source/fonts/ovo-regular-webfont.woff2);
+}
+.formulario_label{
+    margin: 1%;
+    font-family: "ovo";
+}
+.formulario_input{
+    max-width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-family: "ovo";
+}
+
+.boton{ 
+    margin-bottom: 1%;
+}
+
+boton:focus{
+    background-color: aliceblue;
+}
+input:focus {
+  background-color: lightblue;
+}
+/*placeholder{
+ background-color: lightblue;
+}*/
+ textarea:focus{
+
+  background-color : lightblue;
+
+}
+
+#forml{
+    height:  100%;
+    width: 70%;
+    
+}

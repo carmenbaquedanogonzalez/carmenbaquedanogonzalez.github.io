@@ -1,0 +1,13 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "Ovo";
+  src: url("./fonts/Ovo-Regular.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Ovo-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/Ovo-Regular.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/Ovo-Regular.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/Ovo-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/Ovo-Regular.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Ovo-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
