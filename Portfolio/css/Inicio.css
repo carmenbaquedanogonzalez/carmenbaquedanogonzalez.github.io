@@ -42,9 +42,7 @@ main{
   justify-content: flex-start;
   height: 85%;
   width: 100%;
-  cursor: url(../img/paperboat.ico),auto;
-
-
+  cursor:url(../img/paperboat.ico),auto;
 }
 
 #islas{
@@ -55,8 +53,6 @@ main{
   flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
-
- 
 }
 
 .imagen_isla{
